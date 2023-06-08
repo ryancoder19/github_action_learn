@@ -13,7 +13,7 @@ const url = "https://raw.github.hpe.com/aryan-kumar/zap/dummy_branch/security/se
 parseyamlfile(url).then(file => 
 {
     file;
-    console.log(file);
+    //console.log(file);
     //const readyamlfile = yaml.load(file);
     const readyamlfile = yaml.parse(file);
     console.log(readyamlfile.dastUrl[0].authentication_role);
